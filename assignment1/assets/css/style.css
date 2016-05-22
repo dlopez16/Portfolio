@@ -1,0 +1,698 @@
+/**{*/
+	/*box-sizing: border-box;*/
+	/*text-align: center;*/
+/*}*/
+
+
+
+body{
+	margin: 0;
+	/*padding: 0;*/
+	background-color: #ddd;
+	margin-left: 200px;
+	margin: 0px;
+	font-family: "arial";
+	position: static;
+}
+
+header{
+	background:#ffffff;
+	border-color: #cccccc;
+	/*width: 215px;*/
+	overflow: auto;
+	border-bottom: 1px solid;
+	font-family: "Georgia";
+	color:white;
+}
+
+
+#contact-info{
+	/*float:left;*/
+	margin-left: 900px;
+	border: 1px solid;
+	width: 23%;
+	text-align: center;
+	height: 165px;
+	position:absolute;
+	top:109px;
+	right: 100px;
+	background: #fff;
+	border-color:#ddd;
+}
+
+h1{
+	background: #4aaaa5;
+	padding: 19px 40px;
+	width: 182px;
+	float:left;
+	margin:-7px 200px;
+	font-size: 27px;
+	margin-bottom: 0px;
+}
+
+h2{
+	border-bottom: 2px solid;
+	width: 550px;
+	line-height:2;
+	margin-left: 28px;
+	border-color:#ddd;
+	color:#4aaaa5;
+	font-weight: 800;
+	font-size: 25px;
+}
+h3{
+	border-bottom: 2px solid;
+	border-color:#ddd;
+	/*width:100px;*/
+	color: #4aaaa5;
+	font-size: 18px;
+
+}
+
+p{
+	width: 300px;
+	float: left;
+	font-size: 16px;
+	
+}
+ul{
+ 	float: right;
+ 	list-style-type: none;
+ 	padding: 0px;
+ 	border-right: 10px solid;
+ }
+
+ .divider{
+ 	height: 20px;
+ 	width:10px;
+ 	overflow: hidden;
+ 	right: 50px;
+ }
+
+
+/*#bio-image,#main-bio,#contact-info{
+	float: left;
+}*/
+
+#bio-image{
+	width: 150px;
+	height:250px;
+	float:left;
+	margin:0 20px;
+}
+
+footer{
+	background: #666666;
+	height: 80px;
+	text-align:center;
+	margin-top: 200px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left:0px;
+	border-top: 7px solid;
+	border-color:#4aaaa5;
+
+	}
+
+img{
+	width: 80px
+}
+
+#main-bio{
+	background: #fff;
+	height: 415px;
+	position:absolute;
+	width: 600px;
+	margin-left: 200px;
+	top:109px;
+	border: 1px solid;
+	border-color:#ddd;
+
+
+	}
+.boxes{
+float:right;
+right:20px;
+text-indent: 50px;
+
+}
+
+a{
+	top: 0;
+	right:12px;
+	color: #4aaaa5;
+}
+
+
+
+
+/*<!--contact-->*/
+
+
+
+
+/*#header2{
+	background:#ffffff;
+	border-color: #cccccc;
+	width: 215px;
+	overflow: auto;
+	border-bottom: 1px solid;
+	font-family: "Georgia";
+	color:white;
+	height: 200px;
+}*/
+
+
+
+
+
+#contact{
+background: #fff;
+	height: 432px;
+	position:absolute;
+	width: 700px;
+	margin-left: 200px;
+	top:90px;
+	border: 1px solid;
+	border-color:#ddd;
+}
+
+
+/*#contact-2{
+*/	/*float:left;*/
+	/*margin-left: 900px;*/
+	/*border: 1px solid;
+	width: 400px;*/
+	/*text-align: center;
+	height: 200px;
+	position: absolute;
+	top:90px;
+	right: 10px;
+	background: #fff;*/
+/*	border-color:#ddd;
+}*/
+
+/*#h12{
+	background: #4aaaa5;
+	padding: 20px 10px;
+	width: 168px;
+	float:left;
+	margin:0 204px;
+	font-size: 25px
+
+}*/
+
+/*#boxes2{
+float:right;
+right:50px;
+text-indent: 50px;
+font-size: 50px;
+top:30px;
+}
+*/
+
+.fields{
+	width:600px;
+	height: 20px;
+}
+
+form{
+	line-height: 29px;
+	margin-left: 10px;
+
+}
+
+#message{
+	width:600px;
+	height: 125px;
+	
+
+}
+
+#h22{
+	border-bottom: 2px solid;
+	width: 550px;
+	line-height:2;
+	margin-left: 28px;
+	border-color:#ddd;
+	color:#4aaaa5;
+	font-weight: 800;
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+#submit{
+	width: 100px;
+	background-color: #4aaaa5;
+	color: white;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 8px;
+
+	/*<!--> portfolio<-->*/
+	
+}
+.container1{
+display: inline;
+   margin: 20px 10px 20px 0;
+   float: left;
+   height: 150px;
+   width: 200px;
+   background-repeat: no-repeat;
+   position: relative;
+   background-image: url("../images/image1.png");
+}
+
+.container2{
+display: inline;
+   margin: 20px 10px 20px 0;
+   float: left;
+   height: 150px;
+   width: 1000px;
+   background-repeat: no-repeat;
+   position: relative;
+   background-image: url("../images/image2.jpg");
+}
+
+.container3{
+display: inline;
+   margin: 48px 2px 0px 6px;
+   float: left;
+   height: 150px;
+   width: 207px;
+   background-repeat: no-repeat;
+   position: relative;
+   background-image: url("../images/image3.jpg");
+}
+
+.container4{
+display: inline;
+   margin: 20px 10px 20px 0;
+   float: left;
+   height: 150px;
+   width: 200px;
+   background-repeat: no-repeat;
+   position: relative;
+   background-image: url("../images/image4.jpg");
+}
+
+.container5{
+display: inline;
+   margin: 20px 10px 20px 0;
+   float: left;
+   height: 150px;
+   width: 200px;
+   background-repeat: no-repeat;
+   position: relative;
+   background-image: url("../images/image5.jpg");
+}
+
+
+.img1green{
+    opacity: 0.9;
+    color: #F0F0F0;
+    font-size: 20px;
+    padding-top: 20px;
+    display: inline;
+    width: 124px;
+    height: 40px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 11px;
+    bottom: 1px;
+}
+
+
+.img2green{
+    opacity: 0.9;
+    color: #F0F0F0;
+    font-size: 20px;
+    padding-top: 20px;
+    display: inline;
+    width: 150px;
+    height: 40px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+.img3green{
+   opacity: 0.9;
+    color: #F0F0F0;
+    font-size: 20px;
+    padding-top: 20px;
+    display: inline;
+    width: 120px;
+    height: 40px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+}
+
+
+.img4green{
+    opacity: 0.9;
+    color: #F0F0F0;
+    font-size: 20px;
+    padding-top: 20px;
+    display: inline;
+    width: 150px;
+    height: 40px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+.img5green{
+   opacity: 0.9;
+    color: #F0F0F0;
+    font-size: 20px;
+    padding-top: 20px;
+    display: inline;
+    width: 158px;
+    height: 40px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 1px;
+    bottom: 0px;
+}
+
+/*<!-- Media Queries-->*/
+
+/*<!--index-->*/
+
+@media screen and (max-width: 980px){
+	body{
+		background-color: black;
+}
+
+/*<!--Header-->*/
+
+header a{
+
+
+
+}
+
+header h1{
+
+	height: 12px;
+    font-size: 24px;
+    width: 162px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 12px;
+    margin:0 12px;
+}
+
+
+.wrapper{
+	widows: 600px;
+}
+
+
+
+/*<!--About Me-->*/
+
+#main-bio{
+	width: 475px;
+	height: 400px;
+	right: 350px;
+}
+#main-bio img{
+height: 50%;
+width: 27%;
+float: left;
+}	
+#first{
+ 	font-size: 13px;
+ 	float: left;
+ 	width: 272px;
+ 	letter-spacing: 1px;
+ 	line-height: 1.8;
+ }
+
+#second{
+	font-size: 13px;
+ 	width: 421px;
+ 	letter-spacing: 1px;
+ 	line-height: 1.8;
+ 	padding: 0 20px;
+}
+
+ #main-bio h2{
+ 	font-size: 20px;
+ 	width: 410px;
+ }
+
+
+/*<!--Contact-->*/
+#contact-info img{
+
+	float: left;
+	width: 30%;
+}
+#contact-info{
+	height: 110px;
+	width: 200px;
+	padding-left: 15px;
+}
+h3{
+	font-size: 12px;
+}
+
+/*<!--Footer-->*/
+
+footer{
+	height: 70px;
+	top:420px;
+	position: absolute;
+}
+
+/*!<--Contact-->*/
+
+#h22{
+	border-bottom: 2px solid;
+	width: 379px;
+	line-height:2;
+	margin-left: 9px;
+	border-color:#ddd;
+	color:#4aaaa5;
+	font-weight: 800;
+	font-size: 24px;
+	margin-top: 2px;
+}
+
+.fields{
+	width:388px;
+	height: 17px;
+	margin-left: 7px;
+
+}
+
+#message{
+	width:388px;
+	height: 80px;
+	margin-left: 7px;
+}
+
+#contact{
+	height: 364px;
+	width:408px;
+	margin-left: 88px;
+	top:65px;
+
+}
+
+form{
+	font-size: 14px;
+}
+
+#submit{
+margin-left: 5px;
+margin-top:4px;
+}
+
+/*<!-- end of 980px-->*/
+
+/*<!-- start of index 780-->*/
+
+/*/*@media screen and (max-width: 768px){
+
+}
+
+/*<!--Header-->*/
+
+header a{
+
+
+
+}
+
+header h1{
+
+	height: 10px;
+    font-size: 24px;
+    width: 168px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 12px;
+}
+
+
+
+
+
+
+/*<!--About Me-->*/
+
+#main-bio{
+	width: 475px;
+	height: 400px;
+	right: 350px;
+}
+#main-bio img{
+height: 50%;
+width: 27%;
+float: left;
+}	
+#first{
+ 	font-size: 13px;
+ 	float: left;
+ 	width: 272px;
+ 	letter-spacing: 1px;
+ 	line-height: 1.8;
+ }
+
+#second{
+	font-size: 13px;
+ 	width: 421px;
+ 	letter-spacing: 1px;
+ 	line-height: 1.8;
+ 	padding: 0 20px;
+}
+
+ #main-bio h2{
+ 	font-size: 20px;
+ 	width: 410px;
+ }
+
+
+/*<!--Contact-->*/
+#contact-info img{
+
+	float: left;
+	width: 30%;
+}
+#contact-info{
+	height: 110px;
+	width: 200px;
+	padding-left: 15px;
+}
+h3{
+	font-size: 12px;
+}
+
+/*<!--Footer-->*/
+
+footer{
+	height: 70px;
+	top:500px;
+	bottom: 0px;
+	left:0;
+	position: absolute;
+}
+/*<!-- end of index 780px-->*/
+
+/*<!--Start of index 640px-->*/
+
+@media screen and (max-width: 640px){
+
+
+}
+header a{
+
+
+
+}
+
+header h1{
+
+	height: 12px;
+    font-size: 24px;
+    width: 168px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 12px;
+    margin:0 126px;
+}
+
+
+
+
+
+
+/*<!--About Me-->*/
+
+#main-bio{
+	width: 475px;
+	height: 400px;
+	right: 350px;
+}
+#main-bio img{
+height: 50%;
+width: 27%;
+float: left;
+}	
+#first{
+ 	font-size: 13px;
+ 	float: left;
+ 	width: 272px;
+ 	letter-spacing: 1px;
+ 	line-height: 1.8;
+ }
+
+#second{
+	font-size: 13px;
+ 	width: 421px;
+ 	letter-spacing: 1px;
+ 	line-height: 1.8;
+ 	padding: 0 20px;
+}
+
+ #main-bio h2{
+ 	font-size: 20px;
+ 	width: 410px;
+ }
+
+
+/*<!--Contact-->*/
+#contact-info img{
+
+	float: left;
+	width: 30%;
+}
+#contact-info{
+	height: 110px;
+	width: 200px;
+	padding-left: 15px;
+}
+h3{
+	font-size: 12px;
+}
+
+/*<!--Footer-->*/
+
+footer{
+	height: 70px;
+	bottom: -150px;
+	position: absolute;
+}
+*/*/
+/*<!-- end of index 640px-->*/
